@@ -25,7 +25,9 @@
             TOTAL:
           </th>
           <th>
-            <%= cart_subtotal_cents / 100.0 %>
+            <aside class="price">
+              <%= humanized_money_with_symbol cart_subtotal_cents/100.00 %>
+            </aside>
           </th>
         </tr>
       </tfoot>
