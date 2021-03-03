@@ -20,19 +20,18 @@
     <% @line_item.each do |item| %>
     <tbody>
       <tr>
-         <% @product = Product.find(item.product_id) %>
+        <% @product = Product.find(item.product_id) %>
         <td><%= @product.name %></td>
         <td><%= @product.description %></td>
         <td><%= image_tag @product.image.tiny %></td>
-        <td><%= item.item_price_cents%></td>
+        <td><%= humanized_money_with_symbol item.item_price_cents/100.00%></td>
         <td><%=item.quantity%></td>
-        <td><%=item.product_id%></td>
+        <td><%= humanized_money_with_symbol item.total_price_cents/100.00%></td>
       </tr>
     </tbody>
     <% end %>
-
     <table>
-    <h4>total Cost: <%= @order.total_cents / 100%></h4>
+    <h4>total Cost: <%=humanized_money_with_symbol @order.total_cents / 100.00%></h4>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
