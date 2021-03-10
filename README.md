@@ -1,6 +1,28 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+## Project Desscription
+A mini e-commerce application built with Ruby on Rails. Features include signup/login, add-to-cart, and checkout. Ability for users to see products individually, within their specific category, or a list of all products available. Built using Behavior-Driven-Development, and tested using Rspec, Capybara, PhantomJS, and Poltergist. 
+
+
+## Features 
+
+* Products viewable on home page, with ability to add to cart or view product details
+* Items out of Stock are labeled for users to clearly see
+* Within cart-page, users are able to view the line-items for their orders, adjusting the quantities wanted
+* Admins can add/edit/delete products and categories
+* Users passwords are all securely kept using bcrypt. 
+
+## Stack
+
+<b>Front-end</b>: Ruby, Jquery-Rails, SCSS
+
+<b>Back-End</b>: Rails, PSQL
+
+<b>Testing</b>: Rspec, Capybara, Poltergist, PhantomJS
+
+## ScreenShots
+!["Screenshot description"](URL)
+
 
 
 ## Setup
