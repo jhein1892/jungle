@@ -21,20 +21,26 @@ A mini e-commerce application built with Ruby on Rails. Features include signup/
 <b>Testing</b>: Rspec, Capybara, Poltergist, PhantomJS
 
 ## ScreenShots
-!["Home Page View"](docs/home_page.png)
 <i>Home Page view</i>
-!["Product Description"](docs/product_description.png)
+!["Home Page View"](docs/home_page.png)
+
 <i>Product Description Page</i>
-!["My Cart"](docs/cart_view.png)
+!["Product Description"](docs/product_description.png)
+
 <i>My Cart View</i>
-!["Order Confirmation"](docs/order_confirmation.png)
+!["My Cart"](docs/cart_view.png)
+
 <i>Order Confirmation</i>
-!["Admin Dashboard"](docs/admin_dash.png)
+!["Order Confirmation"](docs/order_confirmation.png)
+
 <i>Admin Dashboard</i>
-!["Admin Products"](docs/admin_products.png)
+!["Admin Dashboard"](docs/admin_dash.png)
+
 <i>Admin Products</i>
-!["Admin Categories"](docs/admin_categories.png)
+!["Admin Products"](docs/admin_products.png)
+
 <i>Admin Categories</i>
+!["Admin Categories"](docs/admin_categories.png)
 
 
 
